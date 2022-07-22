@@ -1,11 +1,9 @@
 import React from "react";
 import "./card.css";
 
-const Card = ({ src, Color, days, view, read, comment }) => {
+const Card = ({src, Color, days, view, read, comment}) => {
   return (
     <>
-
-    
       <div id="container">
         <div className="image">
           <img src={src} alt="dp" width="100%" height="100%" />
